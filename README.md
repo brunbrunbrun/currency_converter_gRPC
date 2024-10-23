@@ -17,3 +17,7 @@ Verify if the specified port is open, on Unix you can run:
 sudo ufw allow 50051/tcp
 ```
 to allow connections to a specified port, in this case, port `50051`.
+
+# ACKNOWLEGDES
+
+This project utilizes the [ExchangeRate-API](https://www.exchangerate-api.com/) for updated ratios.
