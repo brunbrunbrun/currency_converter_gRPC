@@ -8,9 +8,9 @@ conversion_rates = {
     ('USD', 'BRL'): 5.4,
     ('USD', 'EUR'): 0.85,
     ('BRL', 'USD'): 0.19,
-    ('BRL', 'EUR'): 6.15,
+    ('BRL', 'EUR'): 0,16,
     ('EUR', 'USD'): 1.18,
-    ('EUR', 'BRL'): 0.16
+    ('EUR', 'BRL'): 6.15
 }
 
 class CurrencyConverterServicer(currency_converter_pb2_grpc.CurrencyConverterServicer):
