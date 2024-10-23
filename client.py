@@ -4,11 +4,11 @@ import currency_converter_pb2_grpc
 
 def run():
     # Conectar ao servidor
-    with grpc.insecure_channel('localhost:50051') as channel:
+    with grpc.insecure_channel('192.168.207.206:50051') as channel:
         stub = currency_converter_pb2_grpc.CurrencyConverterStub(channel)
         
         # Solicitar a conversão
-        from_currency = 'USD'
+        from_currency = 'EUR'
         to_currency = 'BRL'
         amount = 100.0
         
