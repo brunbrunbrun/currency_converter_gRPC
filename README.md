@@ -1,3 +1,7 @@
+Alunos: Bruno Belo Comachio e Lucca Souza Di Oliveira.
+
+RGA's: 202011310043 e 202011310024
+
 # Requirements
 
 ```bash
